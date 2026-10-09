@@ -1,6 +1,6 @@
 //! The gateway's Kafka wire format, mirrored exactly.
 //!
-//! These definitions are a copy of `src/reports.rs` in the `nightswatchhq/gateway` fork. The field
+//! These definitions are a copy of `src/reports.rs` in the `nuthatch-org/gateway` fork. The field
 //! *tags* are the contract, not the field order or the struct names, so keep the `#[prost(...)]`
 //! numbers identical when the gateway changes. Tags 11 and 12 on `ClientQueryProtobuf` are out of
 //! sequence in the source too; that is deliberate there and copied faithfully here.
